@@ -1,0 +1,16 @@
+{
+  "name": "jeff",
+  "description": "JSON Editor File Format",
+  "authors": "Julie Nginn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init:resume": "cp ./templates/example.resume.json ./templates/resume.json",
+    "write:resume": "node ./scripts/createResume.js ./templates/resume.json",
+    "watch:resume": "nodemon ./scripts/createResume.js ./templates/resume.json"
+  },
+  "dependencies": {
+    "nodemon": "2.0.22",
+    "pdfkit": "0.13.0"
+  }
+}
