@@ -7,10 +7,10 @@
   "scripts": {
     "init:recipe": "cp ./templates/example.recipe.json ./templates/recipe.json",
     "init:resume": "cp ./templates/example.resume.json ./templates/resume.json",
-    "write:recipe": "node ./scripts/createRecipe.js ./templates/recipe.json",
-    "write:resume": "node ./scripts/createResume.js ./templates/resume.json",
-    "watch:recipe": "nodemon ./scripts/createRecipe.js ./templates/recipe.json",
-    "watch:resume": "nodemon ./scripts/createResume.js ./templates/resume.json"
+    "write:recipe": "node ./scripts/jsonToPdf.js",
+    "write:resume": "node ./scripts/jsonToPdf.js",
+    "watch:recipe": "nodemon ./scripts/jsonToPdf.js",
+    "watch:resume": "nodemon ./scripts/jsonToPdf.js"
   },
   "dependencies": {
     "nodemon": "2.0.22",
