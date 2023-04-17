@@ -8,6 +8,13 @@ cd jeff
 npm install
 ```
 
+### Commands
+| Command | Description |
+| ------  | ----------- |
+| init    | Initializes a `JSON` file based on the example template |
+| write   | Writes from `JSON` to `PDF` and export the file in `PDF` format |
+| watch   | (Developer mode) Restarts the `write` script on each code change |
+
 ## Usage
 - Create a file into `/templates/resume.json` with your data in JSON format
 - Or generate one from the provided example file
@@ -19,6 +26,10 @@ npm run init:resume
 npm run write:resume <filename>
 ```
 - Retrieve your file in the directory root
+
+### Included templates
+- [Resume]('https://github.com/Madylune/jeff/blob/main/templates/example.resume.json')
+- [Recipe]('https://github.com/Madylune/jeff/blob/main/templates/example.recipe.json')
 
 ### Input
 ```json

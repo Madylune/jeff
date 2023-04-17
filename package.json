@@ -5,8 +5,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "init:recipe": "cp ./templates/example.recipe.json ./templates/recipe.json",
     "init:resume": "cp ./templates/example.resume.json ./templates/resume.json",
+    "write:recipe": "node ./scripts/createRecipe.js ./templates/recipe.json",
     "write:resume": "node ./scripts/createResume.js ./templates/resume.json",
+    "watch:recipe": "nodemon ./scripts/createRecipe.js ./templates/recipe.json",
     "watch:resume": "nodemon ./scripts/createResume.js ./templates/resume.json"
   },
   "dependencies": {
