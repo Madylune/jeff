@@ -1,0 +1,68 @@
+{
+  "title": "JSON au service des devs",
+  "author": "Julie Nginn",
+  "slides": [
+    {
+      "title": "Faire son CV...",
+      "images": [
+        {
+          "path": "slides/cv-word.jpeg",
+          "height": 300,
+          "x": 60,
+          "y": 200
+        },
+        {
+          "path": "slides/cv-canva.jpeg",
+          "height": 300,
+          "x": 310,
+          "y": 200
+        },
+        {
+          "path": "slides/cv-docs.jpeg",
+          "height": 300,
+          "x": 560,
+          "y": 200
+        },
+        {
+          "path": "slides/picto-word.png",
+          "height": 60,
+          "x": 130,
+          "y": 120
+        },
+        {
+          "path": "slides/picto-canva.png",
+          "height": 60,
+          "x": 380,
+          "y": 120
+        },
+        {
+          "path": "slides/picto-docs.png",
+          "height": 60,
+          "x": 630,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "title": "Il nous faut:",
+      "list": [
+        "Nom, prénom, coordonnées",
+        "Expériences professionnelles",
+        "Formation",
+        "Compétences",
+        "Centres d'intérêt"
+      ]
+    },
+    {
+      "title": "Le JSON",
+      "images": [
+        {
+          "path": "slides/json.png",
+          "height": 350,
+          "x": 160,
+          "y": 150
+        }
+      ]
+    }
+  ]
+}

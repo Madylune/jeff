@@ -10,7 +10,8 @@
     "write:recipe": "node ./scripts/jsonToPdf.js",
     "write:resume": "node ./scripts/jsonToPdf.js",
     "watch:recipe": "nodemon ./scripts/jsonToPdf.js",
-    "watch:resume": "nodemon ./scripts/jsonToPdf.js"
+    "watch:resume": "nodemon ./scripts/jsonToPdf.js",
+    "slides": "nodemon ./scripts/jsonToSlides.js"
   },
   "dependencies": {
     "nodemon": "2.0.22",
