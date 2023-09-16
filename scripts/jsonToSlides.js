@@ -30,6 +30,12 @@ data.slides.map(slide => {
   if (slide.images) {
     slide.images.map(img => {
       doc.image(img.path, img.x, img.y, { height: img.height });
+      img.list && 
+        doc
+          .fontSize(13)
+          .list([img.list], img.x, img.height + 120, {
+            lineGap: 10,
+          });
     });
   }
 

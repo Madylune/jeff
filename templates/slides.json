@@ -3,64 +3,138 @@
   "author": "Julie Nginn",
   "slides": [
     {
-      "title": "Faire son CV...",
       "images": [
         {
           "path": "slides/cv-word.jpeg",
           "height": 300,
           "x": 60,
-          "y": 200
+          "y": 100,
+          "list": [
+            "Limité",
+            "Pas original",
+            "Souvent moche",
+            "Payant"
+          ]
         },
         {
           "path": "slides/cv-canva.jpeg",
           "height": 300,
           "x": 310,
-          "y": 200
+          "y": 100,
+          "list": [
+            "Inscription requise",
+            "Partiellement payant"
+          ]
         },
         {
-          "path": "slides/cv-docs.jpeg",
+          "path": "slides/cv-photoshop.jpeg",
           "height": 300,
           "x": 560,
-          "y": 200
+          "y": 100,
+          "list": [
+            "Chiant à prendre en main",
+            "Payant"
+          ]
         },
         {
           "path": "slides/picto-word.png",
           "height": 60,
-          "x": 130,
-          "y": 120
+          "x": 230,
+          "y": 80
         },
         {
           "path": "slides/picto-canva.png",
           "height": 60,
-          "x": 380,
-          "y": 120
+          "x": 480,
+          "y": 80
         },
         {
-          "path": "slides/picto-docs.png",
-          "height": 60,
-          "x": 630,
-          "y": 120
+          "path": "slides/picto-photoshop.png",
+          "height": 70,
+          "x": 730,
+          "y": 80
         }
       ]
     },
     {
-      "title": "Il nous faut:",
-      "list": [
-        "Nom, prénom, coordonnées",
-        "Expériences professionnelles",
-        "Formation",
-        "Compétences",
-        "Centres d'intérêt"
+      "title": "Le traitement de texte pour les (pauvres) devs",
+      "images": [
+        {
+          "path": "slides/vs-code.png",
+          "height": 300,
+          "x": 250,
+          "y": 150
+        }
       ]
     },
     {
-      "title": "Le JSON",
+      "title": "Structure de données d'un CV",
+      "images": [
+        {
+          "path": "slides/structure.png",
+          "height": 430,
+          "x": 200,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "title": "JSON: JavaScript Object Notation",
       "images": [
         {
           "path": "slides/json.png",
           "height": 350,
           "x": 160,
           "y": 150
+        }
+      ]
+    },
+    {
+      "title": "CV en JSON",
+      "images": [
+        {
+          "path": "slides/cv_json.png",
+          "height": 350,
+          "x": 160,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "title": "JEFF",
+      "images": [
+        {
+          "path": "assets/jeff_logo.png",
+          "height": 250,
+          "x": 500,
+          "y": 150
+        }
+      ],
+      "list": [
+        "\"JSON Editor File Format\"",
+        ".json => .pdf",
+        "CV, fiche recette...",
+        "Librairie PDFKit"
+      ]
+    },
+    {
+      "images": [
+        {
+          "path": "slides/live-demo.png",
+          "height": 380,
+          "x": 100,
+          "y": 130
+        }
+      ]
+    },
+    {
+      "title": "To be continued...",
+      "images": [
+        {
+          "path": "slides/web_ui.png",
+          "height": 380,
+          "x": 100,
+          "y": 130
         }
       ]
     }
