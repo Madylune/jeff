@@ -1,4 +1,6 @@
-# JEFF (JSON Editor File Format)
+# <div style="display: flex; align-items: center;" ><img src="assets/jeff_logo.png" height="80" /> JEFF (JSON Editor File Format)</div>
+
+JEFF is a smart and nice tool which allows you to edit your resume and any other anoying-to-write file.
 
 ## Getting Started
 - Clone and install the project
